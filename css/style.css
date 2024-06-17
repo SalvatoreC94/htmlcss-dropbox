@@ -1,13 +1,11 @@
 /* reset */
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-main {
-    max-width: 70%;
-} */
 
 
 
@@ -18,12 +16,9 @@ main {
     flex-direction: row;
     height: 80px;
     line-height: 80px;
-    position: fixed;
-    z-index: 3;
-    top: 0;
-    right: 0;
-    left: 0;
-    background-color: pink;
+
+
+
 }
 
 
@@ -48,5 +43,26 @@ ul {
 }
 
 li>a {
-    padding: 20px;
+    padding: 0 20px;
+}
+
+li>button {
+    margin: 0 15px;
+
+}
+
+.white {
+    background-color: white;
+    border: none;
+}
+
+.blue {
+    background-color: 0061FF;
+    border: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black
 }
