@@ -70,7 +70,7 @@ a {
 
 /* Main */
 
-
+/* 
 h2 {
     margin-bottom: 20px;
 }
@@ -82,11 +82,37 @@ h2 {
 
 .plans>* {
     width: calc(100% / 3)
+} */
+
+.questions-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.flex-sb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main section#questions {
+    padding: 160px 0;
+}
+
+#questions .questions-container h2 {
+    padding-bottom: 75px;
+}
+
+#questions .questions-container div.flex-sb {
+    height: 100px;
+    align-items: center;
+    padding-right: 40px;
 }
 
 /*  */
 footer {
     background-color: black;
+    padding-top: 50px;
 }
 
 footer .footer-container .flex-n div.footer-col {
@@ -107,9 +133,6 @@ footer .footer-container .footer-col>a {
     display: block;
 }
 
-footer>hr {
-    width: 120px;
-}
 
 footer .footer-container .footer-col>h3 {
     padding-bottom: 30px;
