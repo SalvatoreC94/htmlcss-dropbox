@@ -24,8 +24,9 @@
                 <li>
                     <a href="">
                         <img src="img/logo-small.png" alt="logo Dropbox">
+                    </a>
                 </li>
-                </a>
+
                 <li>
                     <a href="#">Perchè Dropbox </a>
                 </li>
@@ -47,14 +48,10 @@
                     <a href="#">Contatta l'ufficio vendite</a>
                 </li>
                 <li>
-                    <button class="white">
-                        <a href="#">Accedi</a>
-                    </button>
+                    <a href="#">Accedi</a>
                 </li>
                 <li>
-                    <button class="blue">
-                        <a href="#">Inizia</a>
-                    </button>
+                    <a class="button blue" href="#">Inizia</a>
                 </li>
             </ul>
 
@@ -66,51 +63,40 @@
 
     <main>
         <!--section titolo,paragrafo a sinistra e immagine(vedi esercizio discord) -->
+        <section id="jumbotron" class="bg-lightazure">
+            <div class="main-container">
 
-        <section id="section1">
-            <div class="container">
-                <h1>
+                <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
 
-                </h1>
-                <div class="jumbotron">
+                <div class="flex-n">
+
+                    <div class="col-small">
+                        <p class="text">Finalmente tutti i tuoi sentimenti, contenuti e collaboratori sono
+                            accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione
+                            sicure: è un modo intelligente e integrato per ottimizzare il flusso di lavoro
+                            esistente.</p>
+                        <a href="#" target="_blank" class="button blue">Inizia la prova tua gratuita</a>
+                        <span class="text">Annulla in qualsiasi momento</span>
+                        <div class="icon"><i class="fa-solid fa-arrow-down"></i></div>
+                    </div>
+
+                    <div class="col-big">
+                        <img class="img" src="img/jumbo.png" alt="Proposta per il cliente">
+                    </div>
 
                 </div>
 
             </div>
+
+
         </section>
+
 
         <!-- section 2 sezione prezzi. titolo, input radio, 3 colonne piu una con width uguale al container -->
 
-        <!-- <section>
-            <div class="small-container">
-                <h2> Lorem ipsum dolor sit amet.</h2>
-                <div>
-                    <input type="radio" name="" id="billing" checked>
-                    Fatturazione mensile
 
-                    <input type="radio" name="" id="billing">
-                    fatturaqzione annuale
-                </div>
-                <div class="plans">
-                    <div>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sed quasi repellat perferendis et
-                        voluptate.
-                    </div>
 
-                    <div>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam officia, iure quasi odit
-                        explicab temporibus! A, doloremque. Impedit officiis accusamus ea minima mollitia! Maiores,
-                        ratione.
-                    </div>
 
-                    <div>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dolores eveniet ullam,
-                        blanditiis suscipit qui?
-                    </div>
-                </div>
-
-            </div>
-        </section> -->
 
         <!-- section3 img piu titolo piccolo paragrafo -->
 
@@ -122,6 +108,13 @@
 
 
         <!-- section5 titolo grande ,link -->
+        <section id="clients">
+            <div class="secondarymain-container">
+                <div class="col-big">
+                    <h2>Più di 500.000 team utilizzano Dropbox Business</h2>
+                    <a href="#" class="shop">Scopri di più sui nostri clienti</a>
+                </div>
+        </section>
 
 
 
@@ -146,7 +139,8 @@
                 <div class="square bg-gray ">
                     <img src="img/designit.svg" alt="logo_designit">
                     <hr>
-                    <p>"I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte
+                    <p>"I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora
+                        molte
                         soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox
                         Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto
                         Dropbox Paper".</p>
@@ -173,13 +167,13 @@
 
 
         <!-- section 7 titolo piu bottone -->
-        <section id="free">
+        <section id="free" class="bg-lightazure">
             <div class="secondarymain-container flex-n">
                 <div class="col-big">
                     <h2>Porta Dropbox Business nella tua azienda</h2>
                 </div>
                 <div class="col-small">
-                    <a href="#" target="_blank" class="btn">Inizia la tua prova gratuita</a>
+                    <a href="#" class="button white">Inizia la tua prova gratuita</a>
                 </div>
             </div>
         </section>
@@ -207,74 +201,74 @@
                 <hr>
             </div>
         </section>
-    </main>
 
-    <footer> <!-- footer (vedi sercizio discord) -->
-        <div id="footer-top" class="footer-container">
-            <div class="flex-n">
 
-                <div class="footer-col">
-                    <h3>Dropbox</h3>
-                    <a href="#">Applicazione desktop</a>
-                    <a href="#">Perchè Dropbox</a>
-                    <a href="#">Piani</a>
-                    <a href="#">Sicurezza</a>
-                    <a href="#">Funzioni</a>
+        <footer> <!-- footer (vedi sercizio discord) -->
+            <div id="footer-top" class="footer-container">
+                <div class="flex-n">
+
+                    <div class="footer-col">
+                        <h3>Dropbox</h3>
+                        <a href="#">Applicazione desktop</a>
+                        <a href="#">Perchè Dropbox</a>
+                        <a href="#">Piani</a>
+                        <a href="#">Sicurezza</a>
+                        <a href="#">Funzioni</a>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3>Prodotti</h3>
+                        <a href="#">Applicazione desktop</a>
+                        <a href="#">Perchè Dropbox</a>
+                        <a href="#">Piani</a>
+                        <a href="#">Sicurezza</a>
+                        <a href="#">Funzioni</a>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3>Azienda</h3>
+                        <a href="#">Applicazione desktop</a>
+                        <a href="#">Perchè Dropbox</a>
+                        <a href="#">Piani</a>
+                        <a href="#">Sicurezza</a>
+                        <a href="#">Funzioni</a>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3>Supporto</h3>
+                        <a href="#">Applicazione desktop</a>
+                        <a href="#">Perchè Dropbox</a>
+                        <a href="#">Piani</a>
+                        <a href="#">Sicurezza</a>
+                        <a href="#">Funzioni</a>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3>Community</h3>
+                        <a href="#">Applicazione desktop</a>
+                        <a href="#">Perchè Dropbox</a>
+                        <a href="#">Piani</a>
+                        <a href="#">Sicurezza</a>
+                        <a href="#">Funzioni</a>
+                    </div>
+
+
                 </div>
 
-                <div class="footer-col">
-                    <h3>Prodotti</h3>
-                    <a href="#">Applicazione desktop</a>
-                    <a href="#">Perchè Dropbox</a>
-                    <a href="#">Piani</a>
-                    <a href="#">Sicurezza</a>
-                    <a href="#">Funzioni</a>
-                </div>
-
-                <div class="footer-col">
-                    <h3>Azienda</h3>
-                    <a href="#">Applicazione desktop</a>
-                    <a href="#">Perchè Dropbox</a>
-                    <a href="#">Piani</a>
-                    <a href="#">Sicurezza</a>
-                    <a href="#">Funzioni</a>
-                </div>
-
-                <div class="footer-col">
-                    <h3>Supporto</h3>
-                    <a href="#">Applicazione desktop</a>
-                    <a href="#">Perchè Dropbox</a>
-                    <a href="#">Piani</a>
-                    <a href="#">Sicurezza</a>
-                    <a href="#">Funzioni</a>
-                </div>
-
-                <div class="footer-col">
-                    <h3>Community</h3>
-                    <a href="#">Applicazione desktop</a>
-                    <a href="#">Perchè Dropbox</a>
-                    <a href="#">Piani</a>
-                    <a href="#">Sicurezza</a>
-                    <a href="#">Funzioni</a>
-                </div>
-
-
-            </div>
-
-            <hr>
-            <div id="footer-bottom" class="foot-container">
-                <div class="language">
-                    <div class="flex-n">
-                        <i class="fa-solid fa-earth-europe"></i>
-                        <span>Italiano</span>
-                        <i class="fa-solid fa-caret-up"></i>
+                <hr>
+                <div id="footer-bottom" class="foot-container">
+                    <div class="language">
+                        <div class="flex-n">
+                            <i class="fa-solid fa-earth-europe"></i>
+                            <span>Italiano</span>
+                            <i class="fa-solid fa-caret-up"></i>
+                        </div>
                     </div>
                 </div>
-            </div>
 
 
 
 
-    </footer>
+        </footer>
 
 </body>
