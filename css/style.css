@@ -83,6 +83,30 @@ h2 {
 .plans>* {
     width: calc(100% / 3)
 } */
+.secondarymain-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#free {
+    background-color: #B4D0E7;
+    padding: 120px 0;
+}
+
+#free .secondarymain-container.flex-n div.col-big {
+    color: #61082B;
+}
+
+#free .secondarymain-container.flex-n div.col-small {
+    flex-grow: 2;
+    text-align: end;
+    padding-top: 15px;
+}
+
+#free .secondarymain-container .flex-n .col-small a.btn {
+    background-color: white;
+    color: black;
+}
 
 .questions-container {
     max-width: 1000px;
