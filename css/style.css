@@ -6,17 +6,21 @@
     font-family: sans-serif;
 }
 
-.small-container {
-    max-width: 900px;
-    text-align: center;
+/* General */
+.flex-sb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-n {
+    display: flex;
 }
 
 
 
 /* header */
 .nav-bar {
-    display: flex;
-    justify-content: space-between;
     flex-direction: row;
     height: 80px;
     line-height: 80px;
@@ -26,19 +30,16 @@
 }
 
 
-.nav-left {
+.nav-left,
+.nav-right {
     display: flex;
     flex-wrap: wrap;
     align-self: center;
 
 }
 
-.nav-right {
-    display: flex;
 
 
-
-}
 
 ul {
     list-style-type: none;
@@ -83,6 +84,88 @@ h2 {
 .plans>* {
     width: calc(100% / 3)
 } */
+
+
+div.square {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+#square-container div.square.flex-n {
+    flex-wrap: wrap;
+}
+
+#square-container .flex-n .team {
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+#square-container .square .team img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+
+#square-container .square.bg-gray>img {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+#square-container .square.bg-gray>hr {
+    width: 20%;
+    margin-bottom: 30px;
+}
+
+#square-container .square.bg-gray {
+    padding: 50px;
+}
+
+
+.square.bg-gray>p {
+    margin-bottom: 30px;
+}
+
+.bg-green {
+    background-color: #A2D39B;
+    border: inset 5px solid #d1e9cd;
+}
+
+.bg-bordeaux {
+    background-color: #61082B;
+}
+
+.bg-azure {
+    background-color: #0393ce;
+}
+
+.bg-orange {
+    background-color: #ff1d1c;
+}
+
+.bg-red {
+    background-color: #d5001f;
+}
+
+.bg-lightazure {
+    background-color: #b5d0e7;
+}
+
+.bg-blu {
+    background-color: #0d2481;
+}
+
+.bg-yellow {
+    background-color: #ffd831;
+}
+
+.square .bg-gray {
+    background-color: #F5F5F5
+}
+
 .secondarymain-container {
     max-width: 1000px;
     margin: 0 auto;
@@ -103,21 +186,13 @@ h2 {
     padding-top: 15px;
 }
 
-#free .secondarymain-container .flex-n .col-small a.btn {
-    background-color: white;
-    color: black;
-}
+
 
 .questions-container {
     max-width: 1000px;
     margin: 0 auto;
 }
 
-.flex-sb {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 main section#questions {
     padding: 160px 0;
@@ -133,7 +208,7 @@ main section#questions {
     padding-right: 40px;
 }
 
-/*  */
+/* Footer */
 footer {
     background-color: black;
     padding-top: 50px;
